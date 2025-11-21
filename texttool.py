@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+"""TextTool : petit outil en ligne de commande qui applique différentes opérations
+sur des chaînes de caractères (uppercase, lowercase, length, count-words, prefix, etc.).
+"""
 
 
 
