@@ -12,10 +12,14 @@ def process_line(line):
         return text.upper()
     if cmd == "lowercase":
         return text.lower()
+
     if cmd == "lenght":
 	return str(len(text))
     if cmd == "prefix":
 	return text[:10]
+
+    if cmd == "count-words":
+        return len(text.split())
 
     return "Unknown command " + cmd
 
